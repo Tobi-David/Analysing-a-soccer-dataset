@@ -1,53 +1,28 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %% [markdown]
-# # welcome message 
 
-# %%
+## welcome message 
+
 print("\t\t\tWelcome to mini proj! \nThis application helps you to find the percentage of a letter in a message. \nKindly input your message here. \nKindly input the letter here.")
 
-# %% [markdown]
-# # User message input
+## User message input
 
-# %%
 user_message = input("This is my message ")
 
-# %% [markdown]
-# # user letter input
+## user letter input
 
-# %%
 user_letter = input("this is my letter ")
 
-# %% [markdown]
-# # count letter in message 
+## count letter in message 
 
-# %%
-user_message.find("a")
-
-
-# %%
 letter_freq = user_message.count(user_letter)
 
-# %% [markdown]
-# # calculate percentage
+## calculate percentage
 
-# %%
 total_chr = len(user_message)
 percentage = int(letter_freq/total_chr*100)
 
-# %% [markdown]
+
 # # print result 
 
-# %%
 print ("the count of", user_letter, "is", letter_freq )
 print (f"the percentage of '{user_letter}' in '{user_message}' is {percentage} percent" )
-
-
-# %%
-
-
-
-# %%
-
-
 
