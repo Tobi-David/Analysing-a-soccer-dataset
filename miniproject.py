@@ -1,7 +1,7 @@
 
 ## welcome message 
 
-print("\t\t\tWelcome to mini proj! \nThis application helps you to find the percentage of a letter in a message. \nKindly input your message here. \nKindly input the letter here.")
+print("\t\t\tWelcome to mini proj! \nThis application helps you to find the number and percentage of a letter in a message.")
 
 ## User message input
 
